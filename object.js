@@ -74,10 +74,16 @@ for(let i = 0; i<res.length;i++){
   const key = res[i]
   // console.log(key)
   // console.log(person[key])
-  console.log(`${key} : ${person[key]}`)
+  // console.log(`${key} : ${person[key]}`)
 }
+// Object.key helps you to give you an array of key 
 
-
+// 3 . Object.values
+const value = Object.values(person)
+// console.log(value)
+for(let i = 0; i < value.length;i++){
+  console.log(value[i])
+}
 
 
 
