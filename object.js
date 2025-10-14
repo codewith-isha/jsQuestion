@@ -28,8 +28,6 @@
 // ES6 Classes and extends
 // Static methods
 
-
-
 // what is an object 
 // An object stores data in ket-value pairs.
 // ex:-a
