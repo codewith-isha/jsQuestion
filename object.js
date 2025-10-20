@@ -6,7 +6,6 @@
 // Updating, adding, and deleting properties
 // Looping through objects
 // Nested objects
-
 // 2. Object Deep Concepts
 // this keyword
 // Object references & copying (shallow vs deep copy)
@@ -42,7 +41,7 @@ const person = {
 const human = new Object()
 human.name= "Gaurav"
 human.age = 22,
-human.personality="Best person in the world.."
+human.personality="Best person in the world"
 // console.log(human)
 
 // accessing properties
@@ -77,17 +76,26 @@ for(let i = 0; i<res.length;i++){
 // Object.key helps you to give you an array of key 
 
 // 3 . Object.values
+
 const value = Object.values(person)
 // console.log(value)
 for(let i = 0; i < value.length;i++){
-  console.log(value[i])
+  // console.log(value[i])
 }
 
-
-
-
-
-
+// 4 . Object.entries
+// to get key + value pairs 
+const entries = Object.entries(person)
+// console.log(entries)
+// question 
+const person_entries = Object.entries(human)
+for(i=1; i<person_entries.length;i++){
+  const key = entries[i][0]
+  const key_length = key.length
+  const value = entries[i][1]
+  console.log(`${key}:${value}`)  
+  console.log(key_length)
+}
 // nested Objects   
 const student = {
   name:"Gaurav",
