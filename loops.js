@@ -19,13 +19,11 @@
 //   console.log(i)
 //   i++
 // }while(i<=5)
-
 // Looping through an array 
 // const fal = ["apple", "Mango", "Banana"]
 // for(let i = 0; i<fal.length;i++){
 //   console.log(fal[i])
 // }
-
 // advance loop for..of and for..in
 // 1. for..of use for array 
 // const colors = ['red', 'yellow','green']
@@ -37,21 +35,17 @@
 // for (const key in person){
 //   console.log(key, ':', person[key])
 // }
-
 // 3. for Each loop 
 // const numbers = [10,20,30];
 // numbers.forEach((num)=>{
 //   console.log(num)
 // })
-
 // A loop inside another loop 
 // for (let i=1;i<=3;i++){
 //  for(let j = 1; j<=2;j++){
 //   console.log(`i=${i}, j=${j}`)
 //  }
 // }
-
-
 // Questionss 
 // 1 print numbers 1-10
 // for(i=1;i<=10;i++){
@@ -73,11 +67,8 @@
 // Find the sum of numbers in an array
 // const numbers = [1,2,3,4,5];
 // let sum = 0;
-
-
 // i <= numbers.length when i do this condition return nan
 //sum = 15 + undefined → NaN
-
 // for(let i=0; i<numbers.length; i++){
 //    sum = sum + numbers[i]; 
 //   //  console.log(sum)
@@ -85,7 +76,6 @@
 // console.log(`Total, ${sum}`)
 // console.log(sum)
 // console.log(numbers)
-
 const numbers= [1,2,3,4]
 let sum = 0
 for(num of numbers){
